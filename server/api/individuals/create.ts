@@ -1,5 +1,6 @@
-import createjson from "../../data/individuals/create.json";
+import { individualCreateData } from "../../data/individuals/create.js";
 
 export default defineEventHandler(() => {
-  return createjson;
+  const data = JSON.stringify(individualCreateData);
+  return data;
 });

@@ -2,9 +2,9 @@
   <div>
     <div class="nav">
       <a href="https://hono-vue3.tschmutz.workers.dev/individuals/create"
-        >=> Vue 3 SPA</a
+        >=> Vue 3</a
       >
-      <a href="https://mock-saas.vercel/app">=> SAAS</a>
+      <a href="https://mock-saas.vercel.app">=> SAAS</a>
     </div>
     <div class="content">
       <h2>Je suis le SAAS actuel</h2>
