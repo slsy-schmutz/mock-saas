@@ -1,5 +1,5 @@
 {
-  "template": "<!DOCTYPE html><html lang='fr'><head><meta charset='UTF-8' /><meta name='viewport' content='width=device-width, initial-scale=1.0' /><title>Listing</title></head><body><a href='/legacy-page'>Legacy Page</a><a href='/individuals/create'>Vue3 Page</a><p>this p tag is from mock-sellsy server</p><div id='app'><!--ssr-outlet--></div><script type='module' src='/src/entry-client.js'></script><!--scripts-outlet--></body></html>",
+  "template": "<!DOCTYPE html><html lang='fr'><head><meta charset='UTF-8' /><meta name='viewport' content='width=device-width, initial-scale=1.0' /><title>Listing</title><!--production-scripts--><!--production-links--></head><body><a href='/saas'>Legacy Page</a><a href='/individuals/create'>Vue3 Page</a><p>this p tag is from mock-sellsy server</p><div id='app'><!--ssr-outlet--></div><script type='module' src='/src/entry-client.js'></script><!--scripts-outlet--></body></html>",
   "initialData": {
     "corp": "Sellsy",
     "account": "Gold",
