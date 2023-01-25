@@ -1,0 +1,15 @@
+{
+  "template": "<!DOCTYPE html><html lang='fr'><head><meta charset='UTF-8' /><meta name='viewport' content='width=device-width, initial-scale=1.0' /><title>Create</title></head><body><a href='/legacy-page'>Legacy Page</a><a href='/individuals/create'>Vue3 Page</a><p>this p tag is from mock-sellsy server</p><div id='app'><!--ssr-outlet--></div><script type='module' src='/src/entry-client.js'></script><!--scripts-outlet--></body></html>",
+  "initialData": {
+    "corp": "Sellsy",
+    "account": "Gold",
+    "currency": [
+      { "country": "FR", "value": "euro" },
+      { "country": "CA", "value": "dollar" }
+    ]
+  },
+  "initialScripts": [
+    "<script>console.log(\"script 1 from /vue3 route\")</script>",
+    "<script>console.log(\"script 2 from /vue3 route\")</script>"
+  ]
+}
